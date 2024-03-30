@@ -7,6 +7,4 @@ function UserModel(login, fullName, birthDate, phone, password, authKey) {
     this.authKey = authKey;
 }
 
-
-
 module.exports = UserModel;

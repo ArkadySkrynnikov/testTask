@@ -1,4 +1,4 @@
-const UserModel = require('./user.model')
+const UserModel = require("./user.model");
 
 function WorkModel(companyName, companyPhone, address) {
     this.companyName = companyName;
@@ -6,6 +6,6 @@ function WorkModel(companyName, companyPhone, address) {
     this.address = address;
 }
 
-WorkModel.prototype = UserModel
+WorkModel.prototype = UserModel;
 
 module.exports = WorkModel;
