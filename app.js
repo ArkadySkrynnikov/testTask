@@ -16,17 +16,4 @@ const start = () => {
     }
 };
 
-process.on("SIGINT", function () {
-    db.close((err) => {
-        if (err) {
-            console.error(
-                "Ошибка при закрытии подключения к базе данных:",
-                err
-            );
-            return;
-        }
-        console.log("Подключение к базе данных закрыто успешно.");
-    });
-});
-
 start();

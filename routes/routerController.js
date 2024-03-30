@@ -1,6 +1,6 @@
 const UserModel = require("../models/user.model");
 const WorkModel = require("../models/work.model");
-const generateKey = require("../utils/autKey");
+const generateKey = require("../utils/authKey");
 const PassportModel = require("../models/passport.model");
 const db = require("../db/db");
 
