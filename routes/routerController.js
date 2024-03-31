@@ -108,12 +108,6 @@ class RouterController {
             res.status(500).json({ message: "Error logging in user", error });
         }
     }
-
-    async test(req, res) {
-        try {
-            res.json("test work");
-        } catch (e) {}
-    }
 }
 
 module.exports = new RouterController();
